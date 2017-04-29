@@ -64,7 +64,7 @@ header {
 }
 
 .container {
-  width: 97%;
+  width: 95%;
   margin: auto;
 }
 .toggle-nav {
@@ -75,15 +75,13 @@ header {
   padding: 22.57px 28px 22px 24.57px;
 }
 
-.celtec {
+.logo {
   float: left;
-  font-size: 3em;
-  color: rgb(68, 68, 68);
-  margin-left: 25px;
-  margin-top: 23px;
-  text-decoration: none;
-  font-weight: 500;
-  font-family: 'Raleway', sans-serif;
+  margin-left: 22px;
+  margin-top: 27px;
+}
+.logo img {
+  width: 90px;
 }
 .main-nav ul {
   list-style: none;
@@ -134,7 +132,9 @@ header {
   margin-top: 22px;
   margin-left: 2px;
 }
-
+.banner-celulares {
+  width: 100%;
+}
 .banner-celulares h1 {
   text-transform: uppercase;
   text-align: center;
@@ -142,8 +142,8 @@ header {
   display: none;
 }
 .banner-celulares img {
-  width: 100%;
   box-shadow: 1px 1px 3px rgb(161, 161, 161);
+  width: 100%;
 }
 
 .listareparaciones {
