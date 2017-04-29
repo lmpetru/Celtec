@@ -1,0 +1,299 @@
+* {
+  box-sizing: border-box;
+
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  /*background-color: rgb(244, 241, 243);*/
+  background-color: white;
+  font-size: 10px;
+  font-family: 'Maven Pro', sans-serif;
+}
+
+header {
+  width: 100vw;
+  height: 80px;
+  background-color: white;
+  border-bottom: solid 1px rgb(203, 198, 198);
+}
+
+.ira, .cotiza {
+  width: 100%;
+  margin: 25px 0 0 0;
+  border-radius: 17px;
+  border: solid 1px rgb(0, 153, 251);
+  background-color: white;
+}
+.cotiza:hover {
+  background-color: rgb(6, 90, 144);
+}
+.cotiza a:hover {
+  color: white;
+}
+.cotiza a {
+  text-decoration: none;
+  font-size: 2em;
+  color:rgb(0, 153, 251);
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+  display: block;
+  padding: 10px;
+
+}
+
+.facelike {
+  margin: auto;
+  display: block;
+}
+.linkira{
+  text-decoration: none;
+  text-align: center;
+  display: block;
+  font-size: 3em;
+  color:rgb(0, 153, 251);
+  font-family: 'Raleway', sans-serif;
+  padding: 10px;
+}
+.ira:hover {
+  background-color: rgb(6, 90, 144);
+}
+.linkira:hover {
+  color:white;
+}
+
+.container {
+  width: 95%;
+  margin: auto;
+}
+.toggle-nav {
+  color: rgb(6, 90, 144);
+  text-align: center;
+  font-size: 3em;
+  float: right;
+  padding: 22.57px 28px 22px 24.57px;
+}
+
+.logo {
+  float: left;
+  margin-left: 22px;
+  margin-top: 27px;
+}
+.logo img {
+  width: 90px;
+}
+.main-nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: none;
+
+}
+.main-nav ul a {
+  text-decoration: none;
+  width: 100vw;
+  background-color: white;
+  color:#447df0;
+  display: block;
+  text-align: center;
+  text-transform: uppercase;
+  padding: 25px;
+  font-size: 2em;
+  border-bottom: solid 1px rgb(203, 198, 198);
+}
+.belgrano iframe {
+  margin: auto;
+}
+.contacto {
+  width: 100%;
+  font-family: 'Roboto', sans-serif;
+  /*border: solid 1px red;*/
+  overflow: hidden;
+  margin: auto;
+  }
+
+.phone, .mailto {
+  color: rgb(127, 132, 134);
+  /*border: solid 1px black;*/
+  display: block;
+  width: 150px;
+  margin: auto;
+}
+.numcel, .ion-ios-telephone, .ion-email, .mail {
+  text-decoration: none;
+  /*border: solid 1px blue;*/
+  float: left;
+}
+.ion-ios-telephone {
+  margin-top: 5px;
+}
+.numcel, .mail {
+  margin-top: 22px;
+  margin-left: 2px;
+}
+.banner-celulares {
+  width: 100%;
+}
+.banner-celulares h1 {
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: normal;
+  display: none;
+}
+.banner-celulares img {
+  box-shadow: 1px 1px 3px rgb(161, 161, 161);
+  width: 100%;
+}
+
+.listareparaciones {
+  width: 95%;
+  /*display: inline-block;*/
+  margin: auto;
+}
+
+.servicio nav a {
+  padding: 20px 20px 20px 0px;
+  display: block;
+  border-bottom: solid 1px rgb(213, 212, 212);
+  font-size: 1.3em;
+  color: rgb(50,49,49);
+  text-decoration: none;
+  text-transform: capitalize;
+}
+
+.servicio nav a:hover {
+  background-color: rgb(214, 214, 214);
+}
+
+.ion-plus-circled {
+  font-size: 1.2em;
+  float: right;
+  color: rgb(199, 185, 65);
+}
+
+.servicio nav p {
+  color: #777777;
+  font-style: italic;
+  font-size: 1.2em;
+  display: none;
+  text-align: center;
+  line-height: 20px;
+}
+.cleaner {
+  clear: both;
+}
+
+.bannerventas img{
+  width: 100%;
+  border-radius: 20px;
+  margin-top: 50px;
+}
+
+.repair-icon {
+  width:100%;
+  border-top: dotted 1px rgb(203, 198, 198);
+  margin-top: 40px;
+}
+
+.sucu {
+  margin-bottom: 70px;
+}
+.sucu h2, .sucu h3 {
+  text-align: left;
+  margin-left: 15px;
+  color: rgb(50, 49, 49);
+}
+
+.ion-android-alert, .ion-ios-gear, .ion-iphone {
+  font-size: 10em;
+  color: #447df0;
+  text-align: center;
+  display: block;
+  margin-bottom: -15px;
+  border-top: dotted 1px rgb(203, 198, 198);
+}
+.ion-iphone {
+  border-top: none;
+}
+.accesoriosicon {
+  text-align: center;
+  margin-top: 30px;
+  border-top: dotted 1px rgb(203, 198, 198);
+}
+.ion-social-apple, .ion-social-android {
+  font-size: 10em;
+  color:#447df0;
+  text-align: center;
+}
+.ion-social-apple {
+  margin-right: 30px;
+}
+
+h2 {
+  text-transform: uppercase;
+  font-size: 2em;
+  margin-bottom: 0px;
+  text-align: center;
+  color: rgb(50, 49, 49);
+
+}
+
+.ventas p{
+  font-size: 1.5em;
+  text-align: center;
+  color: rgb(50, 49, 49);
+}
+
+footer {
+  width: 90%;
+  background-color: white;
+  height: 100px;
+  position:relative;
+  padding: 5px;
+  margin: auto;
+  border-radius: 10px 10px 0 0;
+  border: solid 1px #447df0;
+  border-bottom: none;
+}
+
+.slidesjs-pagination, .slidesjs-navigation {
+  display: none;
+}
+.slides h3 {
+  position: absolute;
+  color: white;
+  left: 5px;
+  text-shadow: 2px 2px 4px grey;
+  font-size: 2em;
+}
+
+.slides {
+  margin: auto;
+  max-width: 495px;
+  width: 100%;
+}
+.slides img {
+  max-width: 495px;
+}
+.titulosucu {
+  color:#447df0;
+  text-transform: uppercase;
+  font-size: 3em;
+  text-align: center;
+}
+
+.ion-social-facebook, .ion-social-instagram {
+  font-size: 3em;
+  color: #447df0;
+  margin-left: 10px;
+}
+.redes {
+  position: absolute;
+  bottom: 5px;
+}
+footer a img {
+  width:40px;
+  margin-right: 4px;
+  float: left;
+}
