@@ -6,6 +6,10 @@
 body {
   margin: 0;
   padding: 0;
+<<<<<<< HEAD
+=======
+  /*background-color: rgb(244, 241, 243);*/
+>>>>>>> ba4727ec8056eb4c9c7e6d559af5889755fff056
   background-color: white;
   font-size: 10px;
   font-family: 'Maven Pro', sans-serif;
@@ -20,8 +24,15 @@ header {
 
 .ira, .cotiza {
   width: 100%;
+<<<<<<< HEAD
   border-radius: 17px;
   border: solid 1px rgb(0, 153, 251);
+=======
+  margin: 25px 0 0 0;
+  border-radius: 17px;
+  border: solid 1px rgb(0, 153, 251);
+  background-color: white;
+>>>>>>> ba4727ec8056eb4c9c7e6d559af5889755fff056
 }
 .cotiza:hover {
   background-color: rgb(6, 90, 144);
@@ -65,7 +76,11 @@ header {
   margin: auto;
 }
 .toggle-nav {
+<<<<<<< HEAD
     color: #374ea1;
+=======
+  color: rgb(6, 90, 144);
+>>>>>>> ba4727ec8056eb4c9c7e6d559af5889755fff056
   text-align: center;
   font-size: 3em;
   float: right;
@@ -74,7 +89,12 @@ header {
 
 .logo {
   float: left;
+<<<<<<< HEAD
   padding: 29px 28px 22px 24.57px;
+=======
+  margin-left: 22px;
+  margin-top: 27px;
+>>>>>>> ba4727ec8056eb4c9c7e6d559af5889755fff056
 }
 .logo img {
   width: 90px;
@@ -128,6 +148,22 @@ header {
   margin-top: 22px;
   margin-left: 2px;
 }
+<<<<<<< HEAD
+=======
+.banner-celulares {
+  width: 100%;
+}
+.banner-celulares h1 {
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: normal;
+  display: none;
+}
+.banner-celulares img {
+  box-shadow: 1px 1px 3px rgb(161, 161, 161);
+  width: 100%;
+}
+>>>>>>> ba4727ec8056eb4c9c7e6d559af5889755fff056
 
 .listareparaciones {
   width: 95%;
@@ -190,7 +226,11 @@ header {
 
 .ion-android-alert, .ion-ios-gear, .ion-iphone {
   font-size: 10em;
+<<<<<<< HEAD
   color: #374ea1;
+=======
+  color: #447df0;
+>>>>>>> ba4727ec8056eb4c9c7e6d559af5889755fff056
   text-align: center;
   display: block;
   margin-bottom: -15px;
@@ -206,7 +246,11 @@ header {
 }
 .ion-social-apple, .ion-social-android {
   font-size: 10em;
+<<<<<<< HEAD
   color:#374ea1;
+=======
+  color:#447df0;
+>>>>>>> ba4727ec8056eb4c9c7e6d559af5889755fff056
   text-align: center;
 }
 .ion-social-apple {
@@ -228,6 +272,7 @@ h2 {
   color: rgb(50, 49, 49);
 }
 
+<<<<<<< HEAD
 .cuadricula {
   margin: auto;
   overflow: hidden;
@@ -244,6 +289,8 @@ h2 {
   width: 100%;
 }
 
+=======
+>>>>>>> ba4727ec8056eb4c9c7e6d559af5889755fff056
 footer {
   width: 90%;
   background-color: white;
@@ -252,6 +299,7 @@ footer {
   padding: 5px;
   margin: auto;
   border-radius: 10px 10px 0 0;
+<<<<<<< HEAD
   border: solid 1px rgb(0, 153, 251);
   border-bottom: none;
 }
@@ -269,6 +317,11 @@ footer {
   display: block;
   padding: 10px;
 }
+=======
+  border: solid 1px #447df0;
+  border-bottom: none;
+}
+>>>>>>> ba4727ec8056eb4c9c7e6d559af5889755fff056
 
 .slidesjs-pagination, .slidesjs-navigation {
   display: none;
@@ -283,11 +336,22 @@ footer {
 
 .slides {
   margin: auto;
+<<<<<<< HEAD
   width: 100vw;
   margin-bottom: -25px;
 }
 .titulosucu {
   color:#374ea1;
+=======
+  max-width: 495px;
+  width: 100%;
+}
+.slides img {
+  max-width: 495px;
+}
+.titulosucu {
+  color:#447df0;
+>>>>>>> ba4727ec8056eb4c9c7e6d559af5889755fff056
   text-transform: uppercase;
   font-size: 3em;
   text-align: center;
@@ -295,7 +359,11 @@ footer {
 
 .ion-social-facebook, .ion-social-instagram {
   font-size: 3em;
+<<<<<<< HEAD
   color: rgb(0, 153, 251);
+=======
+  color: #447df0;
+>>>>>>> ba4727ec8056eb4c9c7e6d559af5889755fff056
   margin-left: 10px;
 }
 .redes {
